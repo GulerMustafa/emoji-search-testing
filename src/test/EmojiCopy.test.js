@@ -10,7 +10,7 @@ describe("Emoji Copy Test", () => {
     render(<App />);
   });
 
-  test("When emoji clicked it must be copied", () => {
+  test("Clicked action must be copied", () => {
     const emoji = screen.getByText("Grin"); // Emoji named wink was retrieved for testing
     fireEvent.click(emoji); // clicked on the drawn emoji
     expect(emoji.parentElement.getAttribute("data-clipboard-text")).toMatch(
