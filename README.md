@@ -1,12 +1,7 @@
 Emoji Search
 ---
 
-React ile oluşturulmuş hazır Emoji Search uygulaması için test kodları yazıldı.
-
-![image](https://user-images.githubusercontent.com/99799385/230922264-0307dc13-3a15-4d39-99c2-1874be9970e5.png)
-
-
-
+Test codes were written for the ready-made Emoji Search application created with React.
 
 Install
 ---
@@ -14,8 +9,10 @@ Install
 `npm install`
 
 
-
-Usage
+For test
 ---
+Write Terminal: 
+`yarn test`
 
-`npm start`
+Note: Before start testing reach test folder.
+
